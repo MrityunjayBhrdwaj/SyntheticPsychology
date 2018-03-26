@@ -11,7 +11,7 @@ let blockSize   = 15;// for flow Field
 
 let maxSpeed    = 4.5   // multiplyer for the random values assigned
 let maxForce    = 1;    // multiplyer for the random values assigned
-let Antnum      = 200;  // population number of ants;
+let Antnum      = 100;  // population number of ants;
 
 function setup(){
     createCanvas(innerWidth,innerHeight);
@@ -27,7 +27,7 @@ function setup(){
         createVector(Math.random()*width,Math.random()*height),
         createVector(0,0),
         createVector(.5,.0),
-        Math.random()*maxForce,(1+Math.random()*maxSpeed/2)*2,.2+Math.random()*.4,1
+        Math.random()*maxForce,(1+Math.random()*maxSpeed/2)*2,.2+Math.random()*.1,1
     )
     
     vehicle_arr.push(vehicle_tmp)
