@@ -11,7 +11,7 @@ let blockSize   = 15;// for flow Field
 
 let maxSpeed    = 4.5   // multiplyer for the random values assigned
 let maxForce    = 1;    // multiplyer for the random values assigned
-let Antnum      = 10;  // population number of ants;
+let Antnum      = 200;  // population number of ants;
 
 function setup(){
     createCanvas(innerWidth,innerHeight);
