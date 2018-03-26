@@ -27,7 +27,7 @@ function setup(){
         createVector(Math.random()*width,Math.random()*height),
         createVector(0,0),
         createVector(.5,.0),
-        Math.random()*maxForce,(1+Math.random()*maxSpeed/2)*2,.2+Math.random()*.1,1
+        Math.random()*maxForce,(1+Math.random()*maxSpeed/2)*2,2+Math.random()*2,1
     )
     
     vehicle_arr.push(vehicle_tmp)
